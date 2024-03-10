@@ -1,3 +1,47 @@
+# Car Sales Database Analysis
+
+This repository contains SQL scripts and analysis for a car sales database. The database consists of information about car sales, including details such as car ID, date, customer name, gender, annual income, car company and model, engine, transmission, color, price of car, dealer number, body style, phone number, and dealer region.
+
+## Analysis Conducted
+
+The following analysis has been carried out on the car sales database:
+
+1. **Standardize Date**: Date formats in the database are standardized to ensure consistency.
+
+2. **Concatenate Company and Model**: Company and model fields are concatenated to create a unified identifier for each car.
+
+3. **Distinct Dealers**: Identification of distinct dealers within the database.
+
+4. **Sales by Region**: Analysis of car sales by region to understand geographical trends.
+
+5. **Yearly and Monthly Sales Data**: Aggregation of sales data to analyze yearly and monthly sales trends.
+
+6. **Price Variation of Car Price**: Analysis of price variation to identify price trends over time.
+
+7. **Total Sales of Dealers**: Calculation of total sales for each dealer.
+
+8. **Car Sales by Type in Different Dealer Regions**: Analysis of car sales by type (e.g., sedan, SUV) in different dealer regions.
+
+9. **Top 3 Selling Cars in Each Region**: Identification of the top 3 selling cars in each region.
+
+10. **Total Gender Divide**: Analysis of the gender distribution among customers.
+
+11. **Preference of Transmission for Male and Female**: Determination of transmission preferences (e.g., automatic, manual) among male and female customers.
+
+12. **Body Style Preferences**: Analysis of body style preferences among male and female customers.
+
+## Visualization
+
+Explore interactive visualizations of the car sales insights on Tableau: [Car Sales Insights Dashboard](https://public.tableau.com/app/profile/shravan.bhat2216/viz/CarSalesInsightsDashboard/Dashboard1)
+
+## Usage
+
+1. Clone the repository to your local machine.
+2. Execute the SQL scripts in your preferred SQL environment, ensuring proper connections to your database.
+3. Customize the scripts as needed for your specific dataset and analysis requirements.
+4. Review the analysis results to gain insights into car sales trends, customer preferences, and dealership performance.
+
+
 ## Data Cleaning Using SQL
 
 This repository contains SQL queries for a data exploration and cleaning project. The project aimed to standardize data formats, populate missing values, separate address fields, update column values for uniformity, remove duplicates, and drop unused columns.
